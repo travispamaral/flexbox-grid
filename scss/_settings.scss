@@ -1,0 +1,20 @@
+@import "base/variables";
+
+$font-size: 16px;
+$line-height: 1.5;
+$font-primary: "Helvetica", "Arial", sans-serif;
+
+$colors: (
+	base: (
+		"primary": darkblue;
+		"secondary": lightblue;
+	),
+	links: (
+		"primary": purple;
+		"hover": honeydew;
+	),
+	background: (
+		"dark": "darkgrey";
+		"light": "lightgrey";
+	)
+);
