@@ -16,6 +16,9 @@ html {
 	line-height: 1.15; /* 1 */
 	-ms-text-size-adjust: 100%; /* 2 */
 	-webkit-text-size-adjust: 100%; /* 2 */
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 /* Sections
@@ -175,6 +178,11 @@ audio:not([controls]) {
 
 img {
 	border-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
 }
 
 /**
