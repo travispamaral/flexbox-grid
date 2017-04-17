@@ -6,27 +6,31 @@
 	max-width: 62.5rem;
 	margin-left: auto;
 	margin-right: auto;
+	// Becomes fullwidth row
+	&--fullwidth {max-width: 100%;}
 
-	margin-top: 1rem; //FOR DEMO ONLY
+	//FOR DEMO ONLY
+	margin-top: 1rem;
+	background: #eee;
 }
 
 .col {
-	flex: 1;
-	padding: 1rem;
-	margin: 0 .9375rem;
-	border: 1px solid #ccc;
+	flex: 1 1 0%;
+	box-sizing: border-box;
+	margin: 0 .975rem;
+	padding: .975rem;
 	border-radius: 3px;
 	box-shadow: 3px 3px 5px #ccc;
 	text-align: center;
 	transition: all 300ms ease;
-	&:hover {box-shadow: none; background: honeydew;}
+	background-color: lightblue;
+	border: 1px solid #darkblue;
+	&:hover {box-shadow: none; background: lighten(lightblue, 5%);}
 }
 
 /* Columns */
-.col-3 {flex: 0 0 25%;}
-.col-4 {flex: 0 0 33.33%;}
-.col-8 {flex: 0 0 66.67%;}
-.col-9 {flex: 0 0 75%;}
+.col-3 {flex: 0 0 33.3333%;}
+.col-4 {flex: 0 0 25%;}
 
 /* Alignment */
 // Column Alignment

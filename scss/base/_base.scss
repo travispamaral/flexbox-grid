@@ -1,2 +1,19 @@
 /* Include Normalize for HTML Reset */
 @import "normalize";
+@import "../functions/color-function";
+@import "variables";
+
+@import "grid";
+
+/* Body Styles */
+html, body {
+	font-size: $global-font-size;
+	line-height: $global-line-height;
+	font-family: $global-font-family;
+	color: color(base, primary);
+}
+
+/* Type Settings */
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}

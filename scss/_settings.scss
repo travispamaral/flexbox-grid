@@ -1,20 +1,21 @@
 @import "base/variables";
 
-$font-size: 16px;
-$line-height: 1.5;
-$font-primary: "Helvetica", "Arial", sans-serif;
+$global-font-size: 16px;
+$global-line-height: 1.5;
+$global-font-family: "Helvetica", "Arial", sans-serif;
 
 $colors: (
 	base: (
-		"primary": darkblue;
-		"secondary": lightblue;
+		"primary":   #1A1A1A,
+		"secondary": #C65146,
+		"lines":     #DCDCDC
 	),
 	links: (
-		"primary": purple;
-		"hover": honeydew;
+		"primary": #551a8b,
+		"hover": #551a8b,
 	),
 	background: (
-		"dark": "darkgrey";
-		"light": "lightgrey";
+		"dark": #333333,
+		"light": #eeeeee,
 	)
 );

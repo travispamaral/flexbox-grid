@@ -40,8 +40,6 @@ gulp.task('html', function() {
 	//watch any and all HTML files and refresh when something changes
 	return gulp.src('*.html')
 	.pipe(browserSync.reload({stream: true}))
-	//catch errors
-	.on('error', gutil.log)
 });
 
 gulp.task('default', ['browserSync', 'sass'], function() {
