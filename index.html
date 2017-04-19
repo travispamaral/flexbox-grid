@@ -7,119 +7,131 @@
 </head>
 <body>
 
-<section id="default-grid">
-	<h1 class="text-center">Flex Grid Default</h1>
+<div class="container">
 
-	<div class="row row--fullwidth">
-		<div class="col">Fullwidth Row</div>
-	</div>
+	<section id="default-grid">
+		<h1 class="text-center">Flex Grid Default</h1>
 
-	<div class="row">
-		<div class="col">100% Column</div>
-	</div>
+		<div class="row">
+			<div class="col">Fullwidth Row</div>
+		</div>
 
-	<div class="row">
-		<div class="col">50% Column</div>
-		<div class="col">50% Column</div>
-	</div>
+		<div class="row">
+			<div class="col">100% Column</div>
+		</div>
 
-	<div class="row">
-		<div class="col">33% Column</div>
-		<div class="col">33% Column</div>
-		<div class="col">33% Column</div>
-	</div>
+		<div class="row">
+			<div class="col">50% Column</div>
+			<div class="col">50% Column</div>
+		</div>
 
-	<div class="row">
-		<div class="col">25% Column</div>
-		<div class="col">25% Column</div>
-		<div class="col">25% Column</div>
-		<div class="col">25% Column</div>
-	</div>
-</section>
+		<div class="row">
+			<div class="col">33% Column</div>
+			<div class="col">33% Column</div>
+			<div class="col">33% Column</div>
+		</div>
 
-<section id="variable-columns">
-	<h1 class="text-center">Sized Columns</h1>
-	<div class="row">
-		<div class="col col-1">Column</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-2">2 columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-3">3 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-4">4 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-5">5 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-6">6 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-7">7 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-8">8 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-9">9 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-10">10 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-11">11 Columns</div>
-		<div class="col">Auto</div>
-	</div>
-	<div class="row">
-		<div class="col col-12">12 Columns</div>
-	</div>
-</section>
+		<div class="row">
+			<div class="col">25% Column</div>
+			<div class="col">25% Column</div>
+			<div class="col">25% Column</div>
+			<div class="col">25% Column</div>
+		</div>
+	</section>
 
-<section id="aligned">
-	<h1 class="text-center">Aligned Grid </h1>
+	<section id="variable-columns">
+		<h1 class="text-center">Sized Columns</h1>
+		<div class="row">
+			<div class="col col--1of2">50%</div>
+			<div class="col">Auto</div>
+			<div class="col">Auto</div>
+		</div>
+		<div class="row">
+			<div class="col col--1of4">25%</div>
+			<div class="col">Auto</div>
+			<div class="col col--1of3">33%</div>
+		</div>
+		<div class="row">
+			<div class="col col--1of8">12.5%</div>
+			<div class="col col--1of4">25%</div>
+			<div class="col">Auto</div>
+		</div>
+		<div class="row">
+			<div class="col col--shrink">Small</div>
+			<div class="col">Auto Grow</div>
+		</div>
+		<div class="row">
+			<div class="col col--1of2">50%</div>
+			<div class="col col--1of2">50%</div>
+		</div>
+		<div class="row">
+			<div class="col col--1of3">33%</div>
+			<div class="col col--1of3">33%</div>
+			<div class="col col--1of3">33%</div>
+		</div>
+		<div class="row">
+			<div class="col col--1of4">25%</div>
+			<div class="col col--1of4">25%</div>
+			<div class="col col--1of4">25%</div>
+			<div class="col col--1of4">25%</div>
+		</div>
+	</section>
 
-	<div class="row align-left">
-		<div class="col col-3">Align Left</div>
-		<div class="col col-3">Align Left</div>
-	</div>
+	<section id="aligned">
+		<h1 class="text-center">Aligned Grid </h1>
 
-	<div class="row align-right">
-		<div class="col col-3">Align Right</div>
-		<div class="col col-3">Align Right</div>
-	</div>
+		<div class="row align-left">
+			<div class="col col--1of3">Align Left</div>
+			<div class="col col--1of3">Align Left</div>
+		</div>
 
-	<div class="row align-center">
-		<div class="col col-3">Align Center</div>
-	</div>
+		<div class="row align-right">
+			<div class="col col--1of3">Align Right</div>
+			<div class="col col--1of3">Align Right</div>
+		</div>
 
-	<div class="row align-center">
-		<div class="col col-3">Center</div>
-		<div class="col col-3">Center</div>
-	</div>
+		<div class="row align-center">
+			<div class="col col--1of3">Align Center</div>
+		</div>
 
-	<div class="row align-spaced">
-		<div class="col col-3">Spaced</div>
-		<div class="col col-3">Spaced</div>
-	</div>
+		<div class="row align-center">
+			<div class="col col--1of3">Center</div>
+			<div class="col col--1of3">Center</div>
+		</div>
 
-	<div class="row align-justify">
-		<div class="col col-3">Justified</div>
-		<div class="col col-3">Justified</div>
-	</div>
-</section>
+		<div class="row align-spaced">
+			<div class="col col--1of3">Spaced</div>
+			<div class="col col--1of3">Spaced</div>
+		</div>
 
+		<div class="row align-justify">
+			<div class="col col--1of3">Justified</div>
+			<div class="col col--1of3">Justified</div>
+		</div>
+	</section>
+
+	<section id="height">
+		<h1 class="text-center">Column Vertical Alignement</h1>
+		<div class="row">
+			<div class="col align-self-top">Align Self Top</div>
+			<div class="col align-self-middle">Align Self Middle</div>
+			<div class="col align-self-bottom">Align Self bottom</div>
+			<div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis velit non gravida venenatis. Praesent consequat lectus purus, ut scelerisque velit condimentum eu. Maecenas sagittis ante ut turpis varius interdum. Quisque tellus ipsum, eleifend non ipsum id, suscipit ultricies neque.</div>
+		</div>
+		<div class="row align-middle">
+			<div class="col">Align Midldle</div>
+			<div class="col ">Align Stretch</div>
+			<div class="col">Align Self stetch</div>
+			<div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis velit non gravida venenatis. Praesent consequat lectus purus, ut scelerisque velit condimentum eu. Maecenas sagittis ante ut turpis varius interdum. Quisque tellus ipsum, eleifend non ipsum id, suscipit ultricies neque.</div>
+		</div>
+		<div class="row align-bottom">
+			<div class="col">Align Midldle</div>
+			<div class="col ">Align Stretch</div>
+			<div class="col">Align Self stetch</div>
+			<div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis velit non gravida venenatis. Praesent consequat lectus purus, ut scelerisque velit condimentum eu. Maecenas sagittis ante ut turpis varius interdum. Quisque tellus ipsum, eleifend non ipsum id, suscipit ultricies neque.</div>
+		</div>
+	</section>
+
+</div><!--/Container-->
 </body>
 </html>
