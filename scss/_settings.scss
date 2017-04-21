@@ -1,9 +1,16 @@
 @import "base/variables";
 
+// Breakpoints
+$breakpoint-sm: 39.9375em;
+$breakpoint-md: 40em;
+$breakpoint-lg: 64em;
+
+// Global Font Settings
 $global-font-size: 16px;
 $global-line-height: 1.5;
 $global-font-family: "Helvetica", "Arial", sans-serif;
 
+// Global Colors
 $colors: (
 	base: (
 		"primary":   #1A1A1A,
