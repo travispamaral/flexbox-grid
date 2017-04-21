@@ -1,29 +1,17 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Simple CSS Flexbox Grid
+* Version 1.0
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+```
+git clone https://travisamaral@bitbucket.org/travisamaral/flex-grid-framework.git
+cd flex-grid-framework
+npm install
+```
+The run gulp and the index page should launch at http://localhost:3000 automatically.
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### CSS Classes ###
