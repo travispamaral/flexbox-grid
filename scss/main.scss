@@ -1,2 +1,26 @@
 @import "settings";
 @import 'base/base';
+
+
+// $breakpoints: (
+// 	medium: 40em,
+// 	large: 64em,
+// );
+
+// $grid-columns: 12;
+
+// .col {
+//     box-sizing: border-box;
+//     flex-basis: 100%;
+//     flex-grow: 0;
+// }
+
+// @each $label, $breakpoint in $breakpoints {
+//     @media (min-width: $breakpoint) {
+//         @for $i from 1 to $grid-columns + 1 {
+//             .col-#{$label}-#{$i} {
+//                 flex-basis: ($i / $grid-columns) * 100%;
+//             }
+//         }
+//     }
+// }
