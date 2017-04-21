@@ -1,4 +1,4 @@
-// retrieve color from $colors map ie. `color(primary, base)`
+// retrieve color from $colors map ie. `color(base, primary)`
 @function color($color-name, $color-variant) {
 	// map inception
 	@return map-get(map-get($colors, $color-name), $color-variant);

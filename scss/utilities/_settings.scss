@@ -1,5 +1,3 @@
-@import "base/variables";
-
 // Breakpoints
 $breakpoint-sm: 39.9375em;
 $breakpoint-md: 40em;
@@ -13,16 +11,16 @@ $global-font-family: "Helvetica", "Arial", sans-serif;
 // Global Colors
 $colors: (
 	base: (
-		"primary":   #1A1A1A,
-		"secondary": #C65146,
-		"lines":     #DCDCDC
+		"primary":   	#1A1A1A,
+		"secondary": 	#C65146,
+		"lines":     		#DCDCDC
 	),
 	links: (
-		"primary": #551a8b,
-		"hover": #551a8b,
+		"primary": 		#551a8b,
+		"hover": 		#551a8b,
 	),
 	background: (
-		"dark": #333333,
-		"light": #eeeeee,
+		"dark": 			#333333,
+		"light": 			#eeeeee,
 	)
 );
