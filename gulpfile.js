@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 var concat = require('gulp-concat');
+var autoprefixer = require('gulp-autoprefixer');
 var cssmin = require('gulp-cssmin');
 var browserSync = require('browser-sync');
 
@@ -13,15 +14,16 @@ gulp.task('browserSync', function() {
         options: {
             reloadDelay: 250
         },
-        notify: true
+        notify: true,
     });
 });
 
 gulp.task('sass', function () {
 	return gulp.src('scss/main.scss')
 	.pipe(sass().on('error', sass.logError))
+	.pipe(autoprefixer())
 	.pipe(concat('styles.min.css'))
-	.pipe(cssmin())
+	//.pipe(cssmin())
 	.pipe(gulp.dest('css'))
 	.pipe(browserSync.reload({stream: true}))
 });
