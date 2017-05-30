@@ -8,8 +8,9 @@ Version: 1.0
 
 Navigate into your project src directory (where SCSS should go). Git clone or download into directory.
 ```
-git clone https://travisamaral@bitbucket.org/travisamaral/flex-grid-framework.git .
+git clone https://bitbucket.org/zookadevelopers/flex-grid-framework .
 ```
+
 Remove `index.html`  
 Remove `scss/pages/_home.scss`  
 
