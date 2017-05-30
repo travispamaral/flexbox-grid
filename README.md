@@ -1,7 +1,7 @@
 #Zooka Flexbox Framework
 
-###Details
-Author: Travis Amaral
+### Details
+Author: Travis Amaral  
 Version: 1.0
 
 ## Set up ##
@@ -10,8 +10,8 @@ Navigate into your project src directory (where SCSS should go). Git clone or do
 ```
 git clone https://travisamaral@bitbucket.org/travisamaral/flex-grid-framework.git .
 ```
-Remove `index.html`
-Remove `scss/pages/_home.scss`
+Remove `index.html`  
+Remove `scss/pages/_home.scss`  
 
 ## Usage ##
 ### Standard Auto Grid ###
