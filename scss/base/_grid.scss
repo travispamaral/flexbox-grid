@@ -1,28 +1,34 @@
 /* Visiblity
 ========================================================================== */
 // General hide class
-.hide {
-	display: none !important;
+.hide {display: none !important;}
+
+// Small Screen only
+@media screen and (max-width: $breakpoint-sm) {
+	.hide-for-sm,
+	.show-for-md,
+	.show-for-lg {display: none !important;}
 }
 
-// Hide for small
-@media screen and (max-width: $breakpoint-sm) {
-	.hide-for-sm {display: none !important;}
-}
-// Hide for Medium
+// Medium Screen Only
 @media screen and (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
-	.hide-for-md {display: none !important;}
+	.hide-for-md,
+	.show-for-sm,
+	.show-for-lg {display: none !important;}
 }
-//Hide for large
+
+// Large Screen Only
 @media screen and (min-width: $breakpoint-lg) {
-	.hide-for-lg {display: none !important;}
+	.hide-for-lg,
+	.show-for-sm,
+	.show-for-md {display: none !important;}
 }
 
 /* Grid
 ========================================================================== */
 // Main Wrapper
 .container {
-	max-width: 62.5em;
+	max-width: $max-container-width;
 	margin: 0 auto;
 }
 
@@ -36,8 +42,8 @@
 .col {
 	flex: 1;
 	box-sizing: border-box;
-	padding-left: .9375rem;
-	padding-right: .9375rem;
+	padding-left: $col-padding;
+	padding-right: $col-padding;
 }
 
 // Shrink to contents of column
