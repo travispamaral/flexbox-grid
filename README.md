@@ -11,12 +11,13 @@ Navigate into your project src directory (where SCSS should go). Git clone or do
 git clone https://bitbucket.org/zookadevelopers/flex-grid-framework .
 ```
 
-Remove `index.html`  
-Remove `scss/pages/_home.scss`  
+Remove demo page & styling 
+`rm index.html` 
+`rm scss/pages/_home.scss`  
 
 ## Usage ##
 ### Standard Auto Grid ###
-```
+```HTML
 <div class="container"> <!-- Creates parent wrapper with max width and margin -->
 
 	<div class="row">
@@ -31,7 +32,7 @@ Remove `scss/pages/_home.scss`
 </div>
 ```
 ### Column Specific Grid ###
-```
+```HTML
 <div class="container"> <!-- Creates parent wrapper with max width and margin -->
 
 	<div class="row">
@@ -45,5 +46,3 @@ Remove `scss/pages/_home.scss`
 
 </div>
 ```
-
-To learn more about the grid visit [the stylesheet here](http://styleguide.zooka.agency/)
