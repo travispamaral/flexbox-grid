@@ -20,30 +20,26 @@ Remove demo page & styling
 ### Standard Auto Grid ###
 ```HTML
 <div class="container"> <!-- Creates parent wrapper with max width and margin -->
-
-	<div class="row">
-		<div class="col"> <!-- Column will automatically flex to equal width -->
-			Your content
-		</div>
-		<div class="col"> <!-- Column will automatically flex to equal width -->
-			Your content
-		</div>
-	</div>
-
+  <div class="row">
+    <div class="col"> <!-- Column will automatically flex to equal width -->
+      Your content
+    </div>
+    <div class="col"> <!-- Column will automatically flex to equal width -->
+      Your content
+    </div>
+  </div>
 </div>
 ```
 ### Column Specific Grid ###
 ```HTML
 <div class="container"> <!-- Creates parent wrapper with max width and margin -->
-
-	<div class="row">
-		<div class="col"> <!-- Auto width -->
-			Your content
-		</div>
-		<div class="col col-md-6 col-lg-3"> <!-- Column will be 50% on medium and 33% on large+ -->
-			Your content
-		</div>
-	</div>
-
+  <div class="row">
+    <div class="col"> <!-- Auto width -->
+      Your content
+    </div>
+    <div class="col col-md-6 col-lg-3"> <!-- Column will be 50% on medium and 33% on large+ -->
+      Your content
+    </div>
+  </div>
 </div>
 ```
