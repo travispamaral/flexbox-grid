@@ -12,7 +12,8 @@ git clone https://bitbucket.org/zookadevelopers/flex-grid-framework .
 ```
 
 Remove demo page & styling 
-`rm index.html` 
+
+`rm index.html`  
 `rm scss/pages/_home.scss`  
 
 ## Usage ##
