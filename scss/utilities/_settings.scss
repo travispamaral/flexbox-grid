@@ -3,16 +3,21 @@ $breakpoint-sm: 39.9375em;
 $breakpoint-md: 40em;
 $breakpoint-lg: 64em;
 
-// Grid Settings
-$col-padding: .9375rem;
+/* Grid Settings
+========================================================================== */
 $max-container-width: 62.5rem;
+$col-padding: .9375rem;
+$row-margin-bottom: 0;
+$row-margin-top: 0;
 
-// Global Font Settings
+/*  Font Settings
+========================================================================== */
 $global-font-size: 16px;
 $global-line-height: 1.5;
 $global-font-family: "Helvetica", "Arial", sans-serif;
 
-// Global Colors
+/*  Colors
+========================================================================== */
 $colors: (
 	base: (
 		"primary": #1A1A1A,

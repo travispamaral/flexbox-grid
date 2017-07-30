@@ -3,6 +3,7 @@
 @import "utilities/variables";
 @import "utilities/settings";
 @import "utilities/functions";
+@import "utilities/colors";
 //@import "utilities/mixins"
 
 /*	Base
@@ -26,8 +27,7 @@
 
 /*	Pages
 ----------------------------------------*/
-// @import "pages/home";
-// @import "pages/about";
+@import "pages/home";
 
 /*	Vendor
 ----------------------------------------*/

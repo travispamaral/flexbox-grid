@@ -1,4 +1,5 @@
-/* Body Styles */
+/* Body Styles
+========================================================================== */
 html, body {
 	font-size: $global-font-size;
 	line-height: $global-line-height;
@@ -6,7 +7,8 @@ html, body {
 	color: color(base, primary);
 }
 
-/* Type Settings */
+/* Type Settings
+========================================================================== */
 .text-left {text-align: left;}
 .text-right {text-align: right;}
 .text-center {text-align: center;}

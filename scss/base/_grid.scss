@@ -37,6 +37,8 @@
 	flex-flow: row;
 	flex-wrap: wrap;
 	flex-direction: row;
+	margin-top: $row-margin-top;
+	margin-bottom: $row-margin-bottom;
 }
 
 .col {
@@ -49,13 +51,6 @@
 // Shrink to contents of column
 .col-shrink {flex: 0;}
 
-@for $i from 1 through 12 {
-	.col-sm-#{$i} {
-		max-width: 100% / 12 * $i;
-		flex-basis: 100% / 12 * $i;
-	}
-}
-
 // Small Only
 @media screen and (max-width: $breakpoint-sm) {
 	// Default on Mobile to fullwidth
@@ -64,10 +59,17 @@
 	}
 }
 
+@for $i from 1 through 12 {
+	.sm-#{$i} {
+		max-width: 100% / 12 * $i;
+		flex-basis: 100% / 12 * $i;
+	}
+}
+
 // Medium
 @media screen and (min-width: $breakpoint-md) {
 	@for $i from 1 through 12 {
-		.col-md-#{$i} {
+		.md-#{$i} {
 			max-width: 100% / 12 * $i;
 			flex-basis: 100% / 12 * $i;
 		}
@@ -77,7 +79,7 @@
 // Large
 @media screen and (min-width: $breakpoint-lg) {
 	@for $i from 1 through 12 {
-		.col-lg-#{$i} {
+		.lg-#{$i} {
 			max-width: 100% / 12 * $i;
 			flex-basis: 100% / 12 * $i;
 		}
